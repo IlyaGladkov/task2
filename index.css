@@ -1,0 +1,488 @@
+/* MAIN STYLE */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Montserrat:wght@300&display=swap');
+
+* {
+    color: #E4E5EA;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: normal;
+    font-style: normal;
+}
+
+body {
+    position: relative;
+    background-color: #0E1014;
+}
+
+/* HEADER */
+
+header {
+    margin-bottom: 90px;
+}
+
+.bodyContainer {
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 46px;
+}
+
+.menuContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a:first-child {
+    margin-right: 8px;
+    color: #E4E5EA;
+}
+
+.logoText {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu {
+    display: flex;
+    width: 530px;
+    justify-content: space-around;
+}
+
+.media {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* MAIN */
+
+.dtMain {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 59px;
+}
+
+.mobileRing1, .mobileRing2 {
+    display: none;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gradient {
+    background: linear-gradient(90deg, #FCB045, #FF3F78);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mainLeft > h1 {
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.mainLeft h1 > span {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.mainLeft > p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.mainRight {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    text-align: right;
+}
+
+.mainRight > p:first-child {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.mainRight p > span {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+
+}
+
+.plus {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    text-align: right;
+    gap: 30px;
+    align-self: flex-end;
+}
+
+.plus p > span {
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.plus p:nth-child(2n + 1) {
+    width: 135px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.mobile-plus {
+    display: none;
+}
+
+.btn {
+    background: #4077F3;
+    border: none;
+    padding: 21px 35px;
+    margin-top: 61px;
+    font-size: 16px;
+    font-weight: 500;
+    align-self: flex-end;
+}
+
+/* FOOTER */
+
+.aboutPar {
+    color: #656566;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 69px;
+    padding-top: 55px;
+    padding-bottom: 20px;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutCompany {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.aboutCompany a {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.aboutCompany a:first-child {
+    margin-top: 0;
+}
+
+.aboutMenu {
+    width: 408px;
+}
+
+.linkMenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkMenu div {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkMenu div>a {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.contactLink > * {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.aboutContact {
+    text-align: right;
+}
+
+.contactLink > * {
+    margin-bottom: 20px;
+}
+
+.aboutLink > a {
+    margin-right: 10px;
+}
+
+.copy {
+    margin-top: 33px;
+    text-align: right;
+}
+
+.copy  p,p>a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* RINGS */
+
+.firstRing {
+    position: absolute;
+    right: 525px;
+    top: -50px;
+}
+
+.secondRing {
+    position: absolute;
+    left: 520px;
+    top: 20px;
+}
+
+.thirdRing {
+    position: absolute;
+    right: 500px;
+    top: 450px;   
+}
+
+.purpleShadowRing {
+    position: absolute;
+    top: -200px;
+    right: 525px;
+    width: 259px;
+    height: 259px;
+    border-radius: 259px;
+    opacity: 0.5;
+    background: #833AB4;
+    filter: blur(196px);
+}
+
+.redShadowRing {
+    position: absolute;
+    left: -100px;
+    top: 200px;
+    width: 311px;
+    height: 311px;
+    border-radius: 311px;
+    opacity: 0.5;
+    background: #961A1A;
+    filter: blur(196px);
+}
+
+/* MOBILE VERSION */
+
+@media screen and (max-width: 320px) {
+
+    .secondRing,
+    .firstRing,
+    .thirdRing,
+    .purpleShadowRing,
+    .redShadowRing,
+    .logo,
+    .menu a:last-child,
+    .headerTelefon,
+    .media,
+    .logoText,
+    .btn,
+    .plus p:nth-child(2n + 1) {
+        display: none;
+    }
+
+    .bodyContainer {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    header, main, footer {
+        padding: 0 16px;
+    }
+
+    header {
+        margin-bottom: 20px;
+    }
+
+    .menu {
+        justify-content: space-between;
+    }
+
+    .menu a {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    .mainContainer {
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .dtMain {
+        position: relative;
+        margin: 0;
+    }
+
+    .dtMain::before {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background: radial-gradient(304.35% 148.20% at 3.20% 3.49%, rgba(255, 246, 233, 0.10) 0%, rgba(26, 29, 35, 0.10) 26.62%, rgba(26, 29, 35, 0.10) 52.10%, rgba(26, 29, 35, 0.01) 70.17%, rgba(26, 29, 35, 0.00) 100%),
+        url('./img/noise.png'), lightgray 0% 0% / 100px 100px no-repeat;
+        backdrop-filter: blur(7.5px);
+        mix-blend-mode: overlay;
+    }
+
+    .mobileRing1 {
+        position: absolute;
+        right: -2px;
+        bottom: 230px;
+    }
+
+    .mobileRing2 {
+        z-index: -9999;
+        position: absolute;
+        left: 5px;
+        bottom: 0;
+    }
+
+    .mobileRing1, .mobileRing2 {
+        display: inline-block;
+    }
+
+    .mobileShadow1 {
+        position: absolute;
+        top: 100px;
+        right: 0;
+        border-radius: 259px;
+        opacity: 0.5;
+        background: #833AB4;
+        filter: blur(196px);
+        width: 125px;
+        height: 259px;
+    }
+
+    .mobileShadow2 {
+        position: absolute;
+        bottom: -10px;
+        left: -30px;
+        width: 211px;
+        height: 210px;
+        border-radius: 259px;
+        background: #961A1A;
+        opacity: 0.5;
+        filter: blur(196px);
+        
+    }
+
+    .mainLeft, .mainRight {
+        z-index: 99999;
+    }
+
+    .mainLeft > h1 {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+    
+    .mainLeft h1 > span {
+        font-size: 36px;
+    }
+
+    .mainRight {
+        margin-top: 45px;
+        text-align: left;
+    }
+
+    .mainRight p > span {
+        letter-spacing: 0;
+        text-transform: lowercase;
+    }
+
+    .plus {
+        align-self: flex-start;
+        text-align: left;
+        gap: 15px;
+    }
+
+    .mobile-plus {
+        position: relative;
+        display: inline;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 0.65px;
+        text-transform: uppercase;
+        margin-left: 15px;
+    }
+
+    .mobile-plus::before {
+        content: '';
+        position: absolute;
+        top: 7px;
+        left: -15px;
+        width: 10px;
+        height: 1px;
+        background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+    }
+
+    footer {
+        margin-top: 45px;
+    }
+
+    .footerContainer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .aboutContact,
+    .contactLink,
+    .copy {
+        text-align: left;
+    }
+
+    .aboutCompany {
+        margin-bottom: 30px;
+    }
+
+    .aboutMenu {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .linkMenu {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .linkMenu div > a,
+    .contactLink p:last-child {
+        font-size: 14px;
+    }
+
+    .contactLink > * {
+        margin-bottom: 10px;
+    }
+}
